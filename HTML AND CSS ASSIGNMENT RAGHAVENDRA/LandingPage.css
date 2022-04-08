@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  body{
+    margin:0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:16px;
+    color:rgb(234, 157, 4);
+    line-height:1.6;
+    
+  }
+  
+  #showcase{
+    background-image:url('film.png');
+    background-size:cover;
+    background-position:center;
+    height:80vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
+  }
+  
+  #showcase h1{
+    font-size:60px;
+    background-color: rgb(234, 149, 37);
+    color: black;
+    line-height:1.2;
+  }
+  
+  #showcase p{
+    font-size:20px;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  #showcase .button{
+    font-size:18px;
+    text-decoration:none;
+    color:#000000;
+    border:#f8f8f8 1px solid;
+    padding:10px 20px;
+    border-radius:20px;
+    margin-top:20px;
+  }
+  
+  #showcase .button:hover{
+    background:#070003;
+    color:#fff;
+  }
+  
+  #section-a{
+    padding:20px;
+    background:rgb(234, 149, 37);
+    color:black;
+    text-align:center;
+  }
+  
+  #section-b{
+    padding:20px;
+    background:black;
+    text-align:center;
+    border: #fff 1px solid
+  }
+  
+  #section-c{
+    display:flex;
+  }
+  
+  #section-c div{
+    padding:20px;
+  }
+  
+  #section-c .box-1, #section-c .box-3{
+    background:black;
+    color:#fff;
+  }
+  
+  #section-c .box-2{
+    background:black;
+    border: #fff 1px solid;
+  }
